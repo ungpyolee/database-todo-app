@@ -7,7 +7,7 @@ function App() {
     return (
         <Router>
           <Routes>
-              <Route path="/" element={<TodoContainer theme={theme}/>} />
+              <Route path="/" element={<TodoContainer />} />
           </Routes>
         </Router>
     );
