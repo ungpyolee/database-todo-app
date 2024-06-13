@@ -50,3 +50,8 @@
 .todo-item button:hover {
     background-color: var(--primary-color-hover);
 }
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #999;
+}
