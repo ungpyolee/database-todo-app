@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
-const db = require('./db');  // db.js 파일에서 데이터베이스 연결 가져오기
+const db = require('./db'); // db.js 파일에서 데이터베이스 연결 가져오기
 
 app.use(cors());
 app.use(bodyParser.json());
